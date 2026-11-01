@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>apiNest · AN 融合图标</title>
+<desc>透明背景，扁宽几何 N，左下横杠连接斜笔画，四笔分别使用不同黑灰色阶。</desc>
+<path fill="#333333" d="M192 292H304V732H192Z"/>
+<path fill="#555555" d="M304 556H624V632H304Z"/>
+<path fill="#111111" d="M192 292H328L832 732H696Z"/>
+<path fill="#252525" d="M720 292H832V732H720Z"/>
+</svg>

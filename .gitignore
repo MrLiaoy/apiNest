@@ -1,0 +1,12 @@
+# 依赖与构建产物
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# 本地环境
+*.local
+.DS_Store
+
+# 运行时用户数据（历史文件不入库）
+*.apix.history.json
