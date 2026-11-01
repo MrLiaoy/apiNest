@@ -51,6 +51,25 @@ my-collection/                   ← one collection = one folder
 - **Shortcuts**: `Ctrl+Enter` send · `Ctrl+S` save · `Ctrl+W` close tab · `Ctrl+T` new tab
 - No environment-variable system by design — URLs are written in full, kept simple
 
+## How it works
+
+**Quick start** (a few minutes):
+1. A default workspace is created on first launch; create / open collections from the File menu (a collection = a folder)
+2. Add requests in the tree (REST or SOAP), fill in URL / params / body / auth — URL and params stay in sync
+3. Hit `Ctrl+Enter` or "Send"; inspect the response with JSON / XML highlighting
+4. Every send is recorded in that request's own history (expand the 🕐 History tab for full details); changes auto-save and restore on restart
+
+**Highlights**:
+- **Folder-based storage**: one file per request; a collection is a plain folder — git-friendly and easy to share
+- **Per-request history files**: changing the URL never loses history; the cap per request is configurable with rolling retention
+- **Full SOAP support**: parse a WSDL into a message template with one click, or just paste a raw message and send
+- **Concurrent requests**: slow calls keep running in the background; tabs show spinners and completion badges (check / exclamation)
+- **cURL interop**: paste a cURL command to import; copy as Linux or Windows cURL
+- **Import / export**: Postman v2.1 / Apifox-compatible format (zip included)
+- **i18n**: built-in 中文 / English plus custom language packs; light/dark theme and adjustable UI scale
+
+> The Mac version is still being optimized.
+
 ## UI
 
 <!-- Add docs/screenshot.png before release and uncomment -->
